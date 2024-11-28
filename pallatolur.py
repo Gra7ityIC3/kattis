@@ -1,0 +1,1 @@
+print('1\n2' if int(input()) <= 2 <= int(input()) else ':(')

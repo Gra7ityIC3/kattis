@@ -1,0 +1,1 @@
+gets.to_i.times { puts gets.start_with?('simon says') ? $_[11..] : '' }

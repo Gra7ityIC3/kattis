@@ -1,0 +1,1 @@
+gets.to_i.times { puts "#{x = gets.to_i} is #{x.odd? ? 'odd' : 'even'}" }

@@ -1,0 +1,1 @@
+gets.to_i.times { puts '11264000000'[gets.to_i] }

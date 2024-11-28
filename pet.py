@@ -1,0 +1,1 @@
+print(*max((sum(map(int, input().split())), i) for i in range(1, 6))[::-1])

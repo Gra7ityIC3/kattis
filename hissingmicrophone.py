@@ -1,0 +1,1 @@
+print('no hiss'[('ss'in input())*3:])

@@ -1,0 +1,1 @@
+puts gets.chomp!.each_char.tally.values.sort![0..-3].sum

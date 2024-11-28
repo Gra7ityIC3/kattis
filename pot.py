@@ -1,0 +1,1 @@
+print(sum(pow(*divmod(int(input()), 10)) for _ in range(int(input()))))

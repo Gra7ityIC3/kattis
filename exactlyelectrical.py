@@ -1,0 +1,5 @@
+a, b = map(int, input().split())
+c, d = map(int, input().split())
+t = int(input())
+n = abs(a - c) + abs(b - d)
+print('YN'[n > t or (t - n) % 2])

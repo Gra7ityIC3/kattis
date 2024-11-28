@@ -1,0 +1,1 @@
+puts "#{gets.count('aeiou')} #{$_.count('aeiouy')}"

@@ -1,0 +1,1 @@
+print(+(sum(x * (ord(y) - 48) for x, y in zip((4, 3, 2, 7, 6, 5, 0, 4, 3, 2, 1), input())) % 11 == 0))

@@ -1,0 +1,1 @@
+puts '%o' % gets.to_i(2)

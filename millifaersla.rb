@@ -1,0 +1,1 @@
+puts ['Monnei', 'Fjee', 'Dolladollabilljoll'][$<.map(&:to_i).each_with_index.min[1]]

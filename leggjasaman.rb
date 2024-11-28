@@ -1,0 +1,1 @@
+puts $<.map(&:to_i).sum

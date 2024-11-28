@@ -1,0 +1,1 @@
+puts (1..[gets.to_i + 1, 17].min).sum { |i| 1 / Math.gamma(i) }

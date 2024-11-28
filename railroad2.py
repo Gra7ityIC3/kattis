@@ -1,0 +1,1 @@
+print('impossible' if int(input().split()[1]) % 2 else 'possible')

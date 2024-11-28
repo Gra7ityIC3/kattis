@@ -1,0 +1,1 @@
+seq -f '%g Abracadabra' $(cat)

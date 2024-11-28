@@ -1,0 +1,1 @@
+puts $<.read.split.permutation(2).map(&:join).uniq.sort

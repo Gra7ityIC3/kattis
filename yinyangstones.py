@@ -1,0 +1,1 @@
+print(+(len(s := input()) == 2 * s.count('B')))

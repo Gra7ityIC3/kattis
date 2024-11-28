@@ -1,0 +1,1 @@
+print(int(input().split()[1]).bit_count())

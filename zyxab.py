@@ -1,0 +1,1 @@
+print(max((s for _ in range(int(input())) if 5 <= len(s := input()) == len({*s})), key=lambda x: (-len(x), x), default='neibb!'))
