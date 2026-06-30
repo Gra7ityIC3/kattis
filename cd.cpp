@@ -6,11 +6,15 @@ int main() {
     int n, m;
     while (cin >> n >> m && n) {
         unordered_set<int> s;
-        for (int i = 0, x; i < n; ++i)
-            cin >> x, s.insert(x);
+        for (int i = 0; i < n; ++i) {
+            int x; cin >> x;
+            s.insert(x);
+        }
         int ans = 0;
-        for (int i = 0, x; i < m; ++i)
-            cin >> x, ans += s.count(x);
+        for (int i = 0; i < m; ++i) {
+            int x; cin >> x;
+            ans += s.count(x);
+        }
         cout << ans << '\n';
     }
     return 0;

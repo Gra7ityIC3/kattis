@@ -5,8 +5,8 @@ int main() {
     cin.tie(0)->sync_with_stdio(0);
     int n, h, cnt, ans = 1e9; cin >> n >> h;
     vector<int> stalagmites(h + 1), stalactites(h + 1);
-    for (int i = 0, x; i < n; ++i) {
-        cin >> x;
+    for (int i = 0; i < n; ++i) {
+        int x; cin >> x;
         i % 2 ? ++stalactites[x] : ++stalagmites[x];
     }
     for (int i = h - 2; i > 0; --i) {

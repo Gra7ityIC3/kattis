@@ -5,8 +5,8 @@ int main() {
     cin.tie(0)->sync_with_stdio(0);
     int n; cin >> n;
     deque<int> front, back;
-    for (int i = 0, x; i < n; ++i) {
-        string s; cin >> s >> x;
+    for (int i = 0; i < n; ++i) {
+        string s; int x; cin >> s >> x;
         if (s == "push_back")
             back.push_back(x);
         else if (s == "push_front")
